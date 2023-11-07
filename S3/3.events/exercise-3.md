@@ -9,7 +9,7 @@ Basandote en el siguiente html, añade un evento 'input' que ejecute un console.
     <title>Document</title>
 </head>
 <body>
-  <input type="text"/>
+  <input type="text" id="miInput" placeholder="Escribe algo aquí">
 </body>
 </html>
 ```

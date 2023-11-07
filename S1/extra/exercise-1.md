@@ -2,3 +2,24 @@ Usa un bucle y dos condiciones para imprimir por consola el nombre de los usuari
 ```js
 const users = [{name: "Abel", years: 43}, {name: "Maria", years: 18}, {name: "Pedro", years: 14}, {name: "Samantha", years: 32}, {name: "Raquel", years: 16}];
 ```
+
+
+
+
+
+for(let i = 0; i<users.length ; i++){
+   if(users[i].years<18){
+      console.log('Usuario menor de edad:' + users[i].name);
+   }else{
+      console.log('Usuario mayor de edad:' + users[i].name);
+   }
+}
+
+
+for( const user in users){
+   if(users[user].years<18){
+      console.log('Usuario menor de edad:' + users[user].name);
+   }else{
+      console.log('Usuario mayor de edad:' + users[user].name);
+   }
+}

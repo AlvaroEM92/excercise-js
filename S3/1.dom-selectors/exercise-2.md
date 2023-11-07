@@ -13,3 +13,8 @@ Dado el siguiente html usa querySelector para mostrar por consola el p con el id
 </body>
 </html>
 ```
+
+
+const ww = document.querySelector('#pillado');
+
+console.log(ww);

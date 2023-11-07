@@ -37,3 +37,11 @@ const users = [
     },
 ]
 ```
+
+
+for ( let user of users){
+    for( sounds in user.favoritesSounds){
+        let sound =user.favoritesSounds[sounds];
+        options.push(sounds);
+    }
+}console.log(options);

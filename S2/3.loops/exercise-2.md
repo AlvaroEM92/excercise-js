@@ -7,3 +7,11 @@ const alien = {
     weight: '259kg'
 }
 ```
+for( const key in alien){
+    console.log(key + ': ' +alien[key]);
+}
+
+
+for ( item in alien){
+    console.log(item + ': ' + alien[item]);
+}

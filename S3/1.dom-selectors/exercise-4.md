@@ -17,3 +17,8 @@ Dado el siguiente html usa querySelector para mostrar por consola todos los elem
 </body>
 </html>
 ```
+
+
+const pok = document.querySelectorAll('.pokemon');
+
+console.log(pok);

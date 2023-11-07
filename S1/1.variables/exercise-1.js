@@ -1,2 +1,2 @@
-let carName ="Volvo";
-console.log(carName)
+let carName = 'Volvo';
+console.log(carName);

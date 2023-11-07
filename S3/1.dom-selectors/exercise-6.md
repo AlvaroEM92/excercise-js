@@ -17,3 +17,8 @@ Dado el siguiente html usa querySelector para mostrar por consola el 3 personaje
 </body>
 </html>
 ```
+
+
+const eee = document.querySelector();
+
+console.log(eee);
